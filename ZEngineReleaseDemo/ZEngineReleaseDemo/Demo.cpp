@@ -9,7 +9,7 @@
 using namespace std;
 void main ()
 {
-	char* input="C:\\Users\\赵博霖\\Desktop\\TestPDF\\红色面裁剪非水平.pdf";//设置要处理的PDF文件路径
+	char* input="C:\\Users\\赵博霖\\Desktop\\TestPDF\\真实地图数据.pdf";//设置要处理的PDF文件路径
 	cliprect rect;
 	rect.x0=100;
 	rect.y0=300;
