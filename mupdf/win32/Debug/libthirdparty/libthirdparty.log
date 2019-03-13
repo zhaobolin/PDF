@@ -1,0 +1,220 @@
+﻿生成启动时间为 2017/5/2 10:20:55。
+     1>项目“C:\Users\zhangjing\Desktop\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\win32\libthirdparty.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\libthirdparty\libthirdparty.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\scripts /I..\thirdparty\jbig2dec /I"..\thirdparty\jpeg-8d" /I"..\thirdparty\openjpeg-1.5.0\libopenjpeg" /I"..\thirdparty\zlib-1.2.5" /I"..\thirdparty\freetype-2.4.8\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D FT2_BUILD_LIBRARY /D OPJ_STATIC /D "FT_CONFIG_MODULES_H=\"slimftmodules.h\"" /D "FT_CONFIG_OPTIONS_H=\"slimftoptions.h\"" /D DEBUG=1 /D "verbose=-1" /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\libthirdparty\\" /Fd"Debug\libthirdparty\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\thirdparty\jpeg-8d\jaricom.c" "..\thirdparty\jpeg-8d\jcomapi.c" "..\thirdparty\jpeg-8d\jdapimin.c" "..\thirdparty\jpeg-8d\jdapistd.c" "..\thirdparty\jpeg-8d\jdarith.c" "..\thirdparty\jpeg-8d\jdatadst.c" "..\thirdparty\jpeg-8d\jdatasrc.c" "..\thirdparty\jpeg-8d\jdcoefct.c" "..\thirdparty\jpeg-8d\jdcolor.c" "..\thirdparty\jpeg-8d\jddctmgr.c" "..\thirdparty\jpeg-8d\jdhuff.c" "..\thirdparty\jpeg-8d\jdinput.c" "..\thirdparty\jpeg-8d\jdmainct.c" "..\thirdparty\jpeg-8d\jdmarker.c" "..\thirdparty\jpeg-8d\jdmaster.c" "..\thirdparty\jpeg-8d\jdmerge.c" "..\thirdparty\jpeg-8d\jdpostct.c" "..\thirdparty\jpeg-8d\jdsample.c" "..\thirdparty\jpeg-8d\jdtrans.c" "..\thirdparty\jpeg-8d\jerror.c" "..\thirdparty\jpeg-8d\jfdctflt.c" "..\thirdparty\jpeg-8d\jfdctfst.c" "..\thirdparty\jpeg-8d\jfdctint.c" "..\thirdparty\jpeg-8d\jidctflt.c" "..\thirdparty\jpeg-8d\jidctfst.c" "..\thirdparty\jpeg-8d\jidctint.c" "..\thirdparty\jpeg-8d\jmemansi.c" "..\thirdparty\jpeg-8d\jmemmgr.c" "..\thirdparty\jpeg-8d\jquant1.c" "..\thirdparty\jpeg-8d\jquant2.c" "..\thirdparty\jpeg-8d\jutils.c" ..\thirdparty\jbig2dec\jbig2.c ..\thirdparty\jbig2dec\jbig2_arith.c ..\thirdparty\jbig2dec\jbig2_arith_iaid.c ..\thirdparty\jbig2dec\jbig2_arith_int.c ..\thirdparty\jbig2dec\jbig2_generic.c ..\thirdparty\jbig2dec\jbig2_halftone.c ..\thirdparty\jbig2dec\jbig2_huffman.c ..\thirdparty\jbig2dec\jbig2_image.c ..\thirdparty\jbig2dec\jbig2_metadata.c ..\thirdparty\jbig2dec\jbig2_mmr.c ..\thirdparty\jbig2dec\jbig2_page.c ..\thirdparty\jbig2dec\jbig2_refinement.c ..\thirdparty\jbig2dec\jbig2_segment.c ..\thirdparty\jbig2dec\jbig2_symbol_dict.c ..\thirdparty\jbig2dec\jbig2_text.c "..\thirdparty\zlib-1.2.5\adler32.c" "..\thirdparty\zlib-1.2.5\compress.c" "..\thirdparty\zlib-1.2.5\crc32.c" "..\thirdparty\zlib-1.2.5\deflate.c" "..\thirdparty\zlib-1.2.5\inffast.c" "..\thirdparty\zlib-1.2.5\inflate.c" "..\thirdparty\zlib-1.2.5\inftrees.c" "..\thirdparty\zlib-1.2.5\trees.c" "..\thirdparty\zlib-1.2.5\uncompr.c" "..\thirdparty\zlib-1.2.5\zutil.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\bio.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\cidx_manager.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\cio.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\dwt.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\event.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\image.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\j2k.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\j2k_lib.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\jp2.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\jpt.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\mct.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\mqc.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\openjpeg.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\phix_manager.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\pi.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\ppix_manager.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\raw.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\t1.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\t2.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\tcd.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\tgt.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\thix_manager.c" "..\thirdparty\openjpeg-1.5.0\libopenjpeg\tpix_manager.c" "..\thirdparty\freetype-2.4.8\src\cff\cff.c" "..\thirdparty\freetype-2.4.8\src\psaux\psaux.c" "..\thirdparty\freetype-2.4.8\src\pshinter\pshinter.c" "..\thirdparty\freetype-2.4.8\src\psnames\psnames.c" "..\thirdparty\freetype-2.4.8\src\raster\raster.c" "..\thirdparty\freetype-2.4.8\src\sfnt\sfnt.c" "..\thirdparty\freetype-2.4.8\src\smooth\smooth.c" "..\thirdparty\freetype-2.4.8\src\truetype\truetype.c" "..\thirdparty\freetype-2.4.8\src\type1\type1.c" "..\thirdparty\freetype-2.4.8\src\cid\type1cid.c" "..\thirdparty\freetype-2.4.8\src\base\ftbase.c" "..\thirdparty\freetype-2.4.8\src\base\ftbbox.c" "..\thirdparty\freetype-2.4.8\src\base\ftbitmap.c" "..\thirdparty\freetype-2.4.8\src\base\ftgasp.c" "..\thirdparty\freetype-2.4.8\src\base\ftglyph.c" "..\thirdparty\freetype-2.4.8\src\base\ftinit.c" "..\thirdparty\freetype-2.4.8\src\base\ftstroke.c" "..\thirdparty\freetype-2.4.8\src\base\ftsynth.c" "..\thirdparty\freetype-2.4.8\src\base\ftsystem.c" "..\thirdparty\freetype-2.4.8\src\base\fttype1.c" "..\thirdparty\freetype-2.4.8\src\base\ftxf86.c"
+         ftxf86.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\base\ftxf86.c”: No such file or directory
+         fttype1.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\base\fttype1.c”: No such file or directory
+         ftsystem.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\base\ftsystem.c”: No such file or directory
+         ftsynth.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\base\ftsynth.c”: No such file or directory
+         ftstroke.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\base\ftstroke.c”: No such file or directory
+         ftinit.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\base\ftinit.c”: No such file or directory
+         ftglyph.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\base\ftglyph.c”: No such file or directory
+         ftgasp.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\base\ftgasp.c”: No such file or directory
+         ftbitmap.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\base\ftbitmap.c”: No such file or directory
+         ftbbox.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\base\ftbbox.c”: No such file or directory
+         ftbase.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\base\ftbase.c”: No such file or directory
+         type1cid.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\cid\type1cid.c”: No such file or directory
+         type1.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\type1\type1.c”: No such file or directory
+         truetype.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\truetype\truetype.c”: No such file or directory
+         smooth.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\smooth\smooth.c”: No such file or directory
+         sfnt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\sfnt\sfnt.c”: No such file or directory
+         raster.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\raster\raster.c”: No such file or directory
+         psnames.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\psnames\psnames.c”: No such file or directory
+         pshinter.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\pshinter\pshinter.c”: No such file or directory
+         psaux.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\psaux\psaux.c”: No such file or directory
+         正在生成代码...
+         正在编译...
+         cff.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\freetype-2.4.8\src\cff\cff.c”: No such file or directory
+         tpix_manager.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\tpix_manager.c”: No such file or directory
+         thix_manager.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\thix_manager.c”: No such file or directory
+         tgt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\tgt.c”: No such file or directory
+         tcd.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\tcd.c”: No such file or directory
+         t2.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\t2.c”: No such file or directory
+         t1.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\t1.c”: No such file or directory
+         raw.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\raw.c”: No such file or directory
+         ppix_manager.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\ppix_manager.c”: No such file or directory
+         pi.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\pi.c”: No such file or directory
+         phix_manager.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\phix_manager.c”: No such file or directory
+         openjpeg.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\openjpeg.c”: No such file or directory
+         mqc.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\mqc.c”: No such file or directory
+         mct.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\mct.c”: No such file or directory
+         jpt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\jpt.c”: No such file or directory
+         jp2.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\jp2.c”: No such file or directory
+         j2k_lib.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\j2k_lib.c”: No such file or directory
+         j2k.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\j2k.c”: No such file or directory
+         image.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\image.c”: No such file or directory
+         event.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\event.c”: No such file or directory
+         正在生成代码...
+         正在编译...
+         dwt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\dwt.c”: No such file or directory
+         cio.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\cio.c”: No such file or directory
+         cidx_manager.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\cidx_manager.c”: No such file or directory
+         bio.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\openjpeg-1.5.0\libopenjpeg\bio.c”: No such file or directory
+         zutil.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\zlib-1.2.5\zutil.c”: No such file or directory
+         uncompr.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\zlib-1.2.5\uncompr.c”: No such file or directory
+         trees.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\zlib-1.2.5\trees.c”: No such file or directory
+         inftrees.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\zlib-1.2.5\inftrees.c”: No such file or directory
+         inflate.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\zlib-1.2.5\inflate.c”: No such file or directory
+         inffast.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\zlib-1.2.5\inffast.c”: No such file or directory
+         deflate.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\zlib-1.2.5\deflate.c”: No such file or directory
+         crc32.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\zlib-1.2.5\crc32.c”: No such file or directory
+         compress.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\zlib-1.2.5\compress.c”: No such file or directory
+         adler32.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\zlib-1.2.5\adler32.c”: No such file or directory
+         jbig2_text.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2_text.c”: No such file or directory
+         jbig2_symbol_dict.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2_symbol_dict.c”: No such file or directory
+         jbig2_segment.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2_segment.c”: No such file or directory
+         jbig2_refinement.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2_refinement.c”: No such file or directory
+         jbig2_page.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2_page.c”: No such file or directory
+         jbig2_mmr.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2_mmr.c”: No such file or directory
+         正在生成代码...
+         正在编译...
+         jbig2_metadata.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2_metadata.c”: No such file or directory
+         jbig2_image.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2_image.c”: No such file or directory
+         jbig2_huffman.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2_huffman.c”: No such file or directory
+         jbig2_halftone.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2_halftone.c”: No such file or directory
+         jbig2_generic.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2_generic.c”: No such file or directory
+         jbig2_arith_int.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2_arith_int.c”: No such file or directory
+         jbig2_arith_iaid.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2_arith_iaid.c”: No such file or directory
+         jbig2_arith.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2_arith.c”: No such file or directory
+         jbig2.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jbig2dec\jbig2.c”: No such file or directory
+         jutils.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jutils.c”: No such file or directory
+         jquant2.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jquant2.c”: No such file or directory
+         jquant1.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jquant1.c”: No such file or directory
+         jmemmgr.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jmemmgr.c”: No such file or directory
+         jmemansi.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jmemansi.c”: No such file or directory
+         jidctint.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jidctint.c”: No such file or directory
+         jidctfst.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jidctfst.c”: No such file or directory
+         jidctflt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jidctflt.c”: No such file or directory
+         jfdctint.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jfdctint.c”: No such file or directory
+         jfdctfst.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jfdctfst.c”: No such file or directory
+         jfdctflt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jfdctflt.c”: No such file or directory
+         正在生成代码...
+         正在编译...
+         jerror.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jerror.c”: No such file or directory
+         jdtrans.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdtrans.c”: No such file or directory
+         jdsample.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdsample.c”: No such file or directory
+         jdpostct.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdpostct.c”: No such file or directory
+         jdmerge.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdmerge.c”: No such file or directory
+         jdmaster.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdmaster.c”: No such file or directory
+         jdmarker.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdmarker.c”: No such file or directory
+         jdmainct.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdmainct.c”: No such file or directory
+         jdinput.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdinput.c”: No such file or directory
+         jdhuff.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdhuff.c”: No such file or directory
+         jddctmgr.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jddctmgr.c”: No such file or directory
+         jdcolor.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdcolor.c”: No such file or directory
+         jdcoefct.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdcoefct.c”: No such file or directory
+         jdatasrc.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdatasrc.c”: No such file or directory
+         jdatadst.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdatadst.c”: No such file or directory
+         jdarith.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdarith.c”: No such file or directory
+         jdapistd.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdapistd.c”: No such file or directory
+         jdapimin.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jdapimin.c”: No such file or directory
+         jcomapi.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jcomapi.c”: No such file or directory
+         jaricom.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\thirdparty\jpeg-8d\jaricom.c”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“C:\Users\zhangjing\Desktop\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\win32\libthirdparty.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.03

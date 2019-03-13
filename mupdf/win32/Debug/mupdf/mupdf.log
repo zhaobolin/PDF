@@ -1,0 +1,23 @@
+﻿生成启动时间为 2017/5/2 10:21:03。
+     1>项目“C:\Users\zhangjing\Desktop\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\win32\mupdf.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\mupdf\mupdf.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\fitz /I..\pdf /I..\xps /I..\cbz /ZI /nologo /W3 /WX- /Od /Oy- /D FT2_BUILD_LIBRARY /D OPJ_STATIC /D DEBUG=1 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\mupdf\\" /Fd"Debug\mupdf\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\apps\pdfapp.c ..\apps\win_main.c
+         win_main.c
+         pdfapp.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\mupdf\win_res.res" ..\apps\win_res.rc 
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\mupdf.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\mupdf\mupdf.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\zhangjing\Desktop\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\win32\Debug\mupdf.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\mupdf.lib" /MACHINE:X86 Debug\mupdf\win_res.res
+         Debug\mupdf\pdfapp.obj
+         Debug\mupdf\win_main.obj
+         "C:\Users\zhangjing\Desktop\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\win32\Debug\libmupdf.lib"
+         "C:\Users\zhangjing\Desktop\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\win32\Debug\libthirdparty.lib"
+     1>LINK : fatal error LNK1104: 无法打开文件“C:\Users\zhangjing\Desktop\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\win32\Debug\libmupdf.lib”
+     1>已完成生成项目“C:\Users\zhangjing\Desktop\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\win32\mupdf.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.46

@@ -1,0 +1,2 @@
+release版本项目\ZEngineReleaseDemo\路径下include与dll文件夹分别存放了:使用PDF引擎所需要的的头文件;PDF引擎的dll与lib文件
+若是想要在别的项目中使用PDF引擎,只需要拷贝include文件夹与dll文件夹到工程目录中,之后在项目配置文件中配置引用库路径属性即可

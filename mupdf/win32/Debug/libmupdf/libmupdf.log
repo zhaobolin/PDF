@@ -1,0 +1,139 @@
+﻿生成启动时间为 2017/5/2 10:20:55。
+     1>项目“C:\Users\zhangjing\Desktop\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\win32\libmupdf.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\libmupdf\libmupdf.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       PreBuildEvent:
+         Description: Generate CMap and Font source files
+         generate.bat
+         :VCEnd
+         fontdump.c
+         cmapdump.c
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\scripts /I..\fitz /I..\pdf /I..\thirdparty\jbig2dec /I"..\thirdparty\jpeg-8d" /I"..\thirdparty\openjpeg-1.5.0\libopenjpeg" /I"..\thirdparty\zlib-1.2.5" /I"..\thirdparty\freetype-2.4.8\include" /ZI /nologo /W3 /WX- /Od /Oy- /D DEBUG=1 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\libmupdf\\" /Fd"Debug\libmupdf\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\pdf\base_object.c ..\pdf\pdf_annot.c ..\pdf\pdf_cmap.c ..\pdf\pdf_cmap_load.c ..\pdf\pdf_cmap_parse.c ..\pdf\pdf_cmap_table.c ..\pdf\pdf_colorspace.c ..\pdf\pdf_crypt.c ..\pdf\pdf_encoding.c ..\pdf\pdf_font.c ..\pdf\pdf_fontfile.c ..\pdf\pdf_function.c ..\pdf\pdf_image.c ..\pdf\pdf_interpret.c ..\pdf\pdf_lex.c ..\pdf\pdf_metrics.c ..\pdf\pdf_nametree.c ..\pdf\pdf_outline.c ..\pdf\pdf_page.c ..\pdf\pdf_parse.c ..\pdf\pdf_pattern.c ..\pdf\pdf_repair.c ..\pdf\pdf_shade.c ..\pdf\pdf_store.c ..\pdf\pdf_stream.c ..\pdf\pdf_type3.c ..\pdf\pdf_unicode.c ..\pdf\pdf_xobject.c ..\pdf\pdf_xref.c ..\fitz\base_context.c ..\fitz\base_error.c ..\fitz\base_geometry.c ..\fitz\base_getopt.c ..\fitz\base_hash.c ..\fitz\base_memory.c ..\fitz\base_string.c ..\fitz\base_time.c ..\fitz\crypt_aes.c ..\fitz\crypt_arc4.c ..\fitz\crypt_md5.c ..\fitz\crypt_sha2.c ..\fitz\dev_bbox.c ..\fitz\dev_list.c ..\fitz\dev_null.c ..\fitz\dev_text.c ..\fitz\dev_trace.c ..\fitz\doc_document.c ..\fitz\doc_link.c ..\fitz\doc_outline.c ..\fitz\filt_basic.c ..\fitz\filt_dctd.c ..\fitz\filt_faxd.c ..\fitz\filt_flate.c ..\fitz\filt_jbig2d.c ..\fitz\filt_lzwd.c ..\fitz\filt_predict.c ..\fitz\image_jpeg.c ..\fitz\image_jpx.c ..\fitz\image_md5.c ..\fitz\image_png.c ..\fitz\image_save.c ..\fitz\image_tiff.c ..\fitz\memento.c ..\fitz\res_bitmap.c ..\fitz\res_colorspace.c ..\fitz\res_font.c ..\fitz\res_halftone.c ..\fitz\res_path.c ..\fitz\res_pixmap.c ..\fitz\res_shade.c ..\fitz\res_store.c ..\fitz\res_text.c ..\fitz\stm_buffer.c ..\fitz\stm_open.c ..\fitz\stm_read.c ..\draw\draw_affine.c ..\draw\draw_blend.c ..\draw\draw_device.c ..\draw\draw_edge.c ..\draw\draw_glyph.c ..\draw\draw_mesh.c ..\draw\draw_paint.c ..\draw\draw_path.c ..\draw\draw_simple_scale.c ..\draw\draw_unpack.c ..\xps\xps_common.c ..\xps\xps_doc.c ..\xps\xps_glyphs.c ..\xps\xps_gradient.c ..\xps\xps_image.c ..\xps\xps_outline.c ..\xps\xps_path.c ..\xps\xps_resource.c ..\xps\xps_tile.c ..\xps\xps_util.c ..\xps\xps_xml.c ..\xps\xps_zip.c ..\cbz\mucbz.c
+         mucbz.c
+     1>c:\users\zhangjing\desktop\sumatrapdf-2[1].0-source\sumatrapdf-2.0\mupdf\cbz\mucbz.c(4): fatal error C1083: 无法打开包括文件:“zlib.h”: No such file or directory
+         xps_zip.c
+     1>c:\users\zhangjing\desktop\sumatrapdf-2[1].0-source\sumatrapdf-2.0\mupdf\xps\xps_zip.c(3): fatal error C1083: 无法打开包括文件:“zlib.h”: No such file or directory
+         xps_xml.c
+         xps_util.c
+         xps_tile.c
+         xps_resource.c
+         xps_path.c
+         xps_outline.c
+         xps_image.c
+         xps_gradient.c
+         xps_glyphs.c
+     1>c:\users\zhangjing\desktop\sumatrapdf-2[1].0-source\sumatrapdf-2.0\mupdf\xps\xps_glyphs.c(3): fatal error C1083: 无法打开包括文件:“ft2build.h”: No such file or directory
+         xps_doc.c
+         xps_common.c
+         draw_unpack.c
+         draw_simple_scale.c
+         draw_path.c
+         draw_paint.c
+         draw_mesh.c
+         draw_glyph.c
+         draw_edge.c
+         正在生成代码...
+         正在编译...
+         draw_device.c
+         draw_blend.c
+         draw_affine.c
+         stm_read.c
+         stm_open.c
+         stm_buffer.c
+         res_text.c
+         res_store.c
+         res_shade.c
+         res_pixmap.c
+     1>c:\users\zhangjing\desktop\sumatrapdf-2[1].0-source\sumatrapdf-2.0\mupdf\fitz\res_pixmap.c(460): fatal error C1083: 无法打开包括文件:“zlib.h”: No such file or directory
+         res_path.c
+         res_halftone.c
+         res_font.c
+     1>c:\users\zhangjing\desktop\sumatrapdf-2[1].0-source\sumatrapdf-2.0\mupdf\fitz\res_font.c(3): fatal error C1083: 无法打开包括文件:“ft2build.h”: No such file or directory
+         res_colorspace.c
+         res_bitmap.c
+         memento.c
+     1>c1 : fatal error C1083: 无法打开源文件:“..\fitz\memento.c”: No such file or directory
+         image_tiff.c
+         image_save.c
+         image_png.c
+     1>c:\users\zhangjing\desktop\sumatrapdf-2[1].0-source\sumatrapdf-2.0\mupdf\fitz\image_png.c(3): fatal error C1083: 无法打开包括文件:“zlib.h”: No such file or directory
+         image_md5.c
+         正在生成代码...
+         正在编译...
+         image_jpx.c
+     1>c:\users\zhangjing\desktop\sumatrapdf-2[1].0-source\sumatrapdf-2.0\mupdf\fitz\image_jpx.c(4): fatal error C1083: 无法打开包括文件:“openjpeg.h”: No such file or directory
+         image_jpeg.c
+     1>c:\users\zhangjing\desktop\sumatrapdf-2[1].0-source\sumatrapdf-2.0\mupdf\fitz\image_jpeg.c(3): fatal error C1083: 无法打开包括文件:“jpeglib.h”: No such file or directory
+         filt_predict.c
+         filt_lzwd.c
+         filt_jbig2d.c
+     1>c:\users\zhangjing\desktop\sumatrapdf-2[1].0-source\sumatrapdf-2.0\mupdf\fitz\filt_jbig2d.c(18): fatal error C1083: 无法打开包括文件:“jbig2.h”: No such file or directory
+         filt_flate.c
+     1>c:\users\zhangjing\desktop\sumatrapdf-2[1].0-source\sumatrapdf-2.0\mupdf\fitz\filt_flate.c(3): fatal error C1083: 无法打开包括文件:“zlib.h”: No such file or directory
+         filt_faxd.c
+         filt_dctd.c
+     1>c:\users\zhangjing\desktop\sumatrapdf-2[1].0-source\sumatrapdf-2.0\mupdf\fitz\filt_dctd.c(3): fatal error C1083: 无法打开包括文件:“jpeglib.h”: No such file or directory
+         filt_basic.c
+         doc_outline.c
+         doc_link.c
+         doc_document.c
+         dev_trace.c
+         dev_text.c
+     1>c:\users\zhangjing\desktop\sumatrapdf-2[1].0-source\sumatrapdf-2.0\mupdf\fitz\dev_text.c(7): fatal error C1083: 无法打开包括文件:“ft2build.h”: No such file or directory
+         dev_null.c
+         dev_list.c
+         dev_bbox.c
+         crypt_sha2.c
+         crypt_md5.c
+         crypt_arc4.c
+         正在生成代码...
+         正在编译...
+         crypt_aes.c
+         base_time.c
+         base_string.c
+         base_memory.c
+         base_hash.c
+         base_getopt.c
+         base_geometry.c
+         base_error.c
+         base_context.c
+         pdf_xref.c
+         pdf_xobject.c
+         pdf_unicode.c
+         pdf_type3.c
+         pdf_stream.c
+         pdf_store.c
+         pdf_shade.c
+         pdf_repair.c
+         pdf_pattern.c
+         pdf_parse.c
+         pdf_page.c
+         正在生成代码...
+         正在编译...
+         pdf_outline.c
+         pdf_nametree.c
+         pdf_metrics.c
+         pdf_lex.c
+         pdf_interpret.c
+         pdf_image.c
+         pdf_function.c
+         pdf_fontfile.c
+     1>c:\users\zhangjing\desktop\sumatrapdf-2[1].0-source\sumatrapdf-2.0\mupdf\pdf\pdf_fontfile.c(141): fatal error C1083: 无法打开包括文件:“ft2build.h”: No such file or directory
+         pdf_font.c
+     1>c:\users\zhangjing\desktop\sumatrapdf-2[1].0-source\sumatrapdf-2.0\mupdf\pdf\pdf_font.c(4): fatal error C1083: 无法打开包括文件:“ft2build.h”: No such file or directory
+         pdf_encoding.c
+         pdf_crypt.c
+         pdf_colorspace.c
+         pdf_cmap_table.c
+         pdf_cmap_parse.c
+         pdf_cmap_load.c
+         pdf_cmap.c
+         pdf_annot.c
+         base_object.c
+         正在生成代码...
+     1>已完成生成项目“C:\Users\zhangjing\Desktop\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\win32\libmupdf.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:08.36
