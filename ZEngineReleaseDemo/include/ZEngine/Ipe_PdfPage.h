@@ -24,6 +24,5 @@ public:
 	void setrect(fz_rect rect);
 	void maketransform(); //遍历页内部内容,进行转置矩阵运算
 	void clipwithrect(cliprect *myrect);//使用给定大小的矩形对模型进行裁剪
-
 };
 

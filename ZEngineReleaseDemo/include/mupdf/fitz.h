@@ -137,7 +137,7 @@ typedef struct fz_store_s fz_store;
 typedef struct fz_glyph_cache_s fz_glyph_cache;
 typedef struct fz_context_s fz_context;
 
-
+//提取矢量图形数据
 struct zblroute//图形状态栈中的一条路径，可能与其他路径共用剪辑路径或者转置矩阵等
 {
 	int type;//路径种类 直线-1 贝塞尔曲线-2 矩形-3 剪辑路径矩形-4
@@ -214,6 +214,62 @@ struct routepoint
 	float p4;
 	float p5;
 	float state;//state构造路径的m,l,h,c状态(分别对应0，1，2，3）//此处待添加v y等命令
+};
+
+//提取文本内容
+/*
+struct zstring
+{
+	int length;
+	char* contents;
+	struct zstring* next;
+};
+
+struct ztext
+{
+	int size;
+	struct zstring* head;
+	struct zstring* currentstring;
+};
+
+void initzstring(zstring* p)
+{
+	p=(zstring*)malloc(sizeof(zstring));
+	p->length=-1;
+	p->contents=NULL;
+	p->next=NULL;
+}
+
+void initztext(ztext* p)
+{
+	p=(ztext*)malloc(sizeof(ztext));
+	p->size=0;
+	initzstring(p->head);
+	p->currentstring=p->head;
+}
+
+void addzstring(ztext*p)
+{
+	p->size++;
+	zstring* string;
+	initzstring(string);
+	p->currentstring->next=string;
+	p->currentstring=p->currentstring->next;
+}
+*/
+//提取图片内容
+struct zimagenode//一张图片
+{
+	int w,h,n;//宽高,分量
+	unsigned char *data;//rgb值
+	struct zimagenode* next;
+};
+
+struct zimages//返回的图片信息
+{
+	struct zimagenode* head;
+	struct zimagenode* currentimage;
+	int count;//图片数量
 };
 
 
@@ -1341,6 +1397,10 @@ extern fz_colorspace *fz_device_cmyk;
 	plane. Each pixel has n components per pixel, the last of which is
 	always alpha. The data is in premultiplied alpha when rendering, but
 	non-premultiplied for colorspace conversions and rescaling.
+
+	Pixmaps表示平面二维区域的一组像素。每个像素有n个分量，最后一个总是alpha。
+	渲染时数据以预乘alpha格式显示，但对于颜色空间转换和重新缩放，数据以非预乘
+	alpha格式显示。
 */
 typedef struct fz_pixmap_s fz_pixmap;
 
@@ -1596,6 +1656,9 @@ void fz_write_tga(fz_context *ctx, fz_pixmap *pixmap, char *filename, int saveal
 	These may be implemented as simple wrappers around a pixmap, or as
 	more complex things that decode at different subsample settings on
 	demand.
+	图像是可存储的对象，我们可以从中获取FZ_pixmaps。
+	这些的实现可以认为是简单地对pixmap进行了一些封装，或者
+	是更复杂的实现:为不同的子样本进行不同的解码
  */
 typedef struct fz_image_s fz_image;
 
@@ -1615,6 +1678,8 @@ typedef struct fz_image_s fz_image;
 	Returns a non NULL pixmap pointer. May throw exceptions.
 */
 fz_pixmap *fz_image_to_pixmap(fz_context *ctx, fz_image *image, int w, int h);
+
+//w宽度,h高度
 
 /*
 	fz_drop_image: Drop a reference to an image.

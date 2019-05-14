@@ -418,7 +418,7 @@ struct pdf_font_desc_s
 
 	fz_font *font;
 
-	/* FontDescriptor */
+	/* FontDescriptor ×ÖÌåÃèÊö*/
 	int flags;
 	float italic_angle;
 	float ascent;
@@ -427,13 +427,13 @@ struct pdf_font_desc_s
 	float x_height;
 	float missing_width;
 
-	/* Encoding (CMap) */
+	/* Encoding (CMap) ±àÂë*/
 	pdf_cmap *encoding;
 	pdf_cmap *to_ttf_cmap;
 	int cid_to_gid_len;
 	unsigned short *cid_to_gid;
 
-	/* ToUnicode */
+	/* ToUnicode ×ª»»Îªunicode*/
 	pdf_cmap *to_unicode;
 	int cid_to_ucs_len;
 	unsigned short *cid_to_ucs;

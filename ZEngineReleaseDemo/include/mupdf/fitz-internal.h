@@ -589,15 +589,15 @@ void fz_clear_bitmap(fz_context *ctx, fz_bitmap *bit);
 	plane. Each pixel has n components per pixel, the last of which is
 	always alpha. The data is in premultiplied alpha when rendering, but
 	non-premultiplied for colorspace conversions and rescaling.
-
+	每个像素点有n个分量,像素点最后一个分量是alpha透明度
 	x, y: The minimum x and y coord of the region in pixels.
-
+	//区域的最小x,y坐标
 	w, h: The width and height of the region in pixels.
-
+	//宽高
 	n: The number of color components in the image. Always
 	includes a separate alpha channel. For mask images n=1, for greyscale
 	(plus alpha) images n=2, for rgb (plus alpha) images n=3.
-
+	//对于遮罩图像n=1，对于灰度（加α）图像n=2，对于RGB（加α）图像n=3。
 	interpolate: A boolean flag set to non-zero if the image
 	will be drawn using linear interpolation, or set to zero if
 	image will be using nearest neighbour sampling.
@@ -611,7 +611,9 @@ void fz_clear_bitmap(fz_context *ctx, fz_bitmap *bit);
 	the components are stored. The first n bytes are components 0 to n-1
 	for the pixel at (x,y). Each successive n bytes gives another pixel
 	in scanline order. Subsequent scanlines follow on with no padding.
-
+	一个简单的内存块，W*H*N字节的内存中存储了这些组件。前n个字节是（x，y）
+	处像素的分量0到n-1。每一个连续的N字节都会以扫描线顺序给出另一个像素
+	。随后的扫描线没有填充。
 	free_samples: Is zero when an application has provided its own
 	buffer for pixel data through fz_new_pixmap_with_bbox_and_data.
 	If not zero the buffer will be freed when fz_drop_pixmap is
@@ -620,11 +622,11 @@ void fz_clear_bitmap(fz_context *ctx, fz_bitmap *bit);
 struct fz_pixmap_s
 {
 	fz_storable storable;
-	int x, y, w, h, n;
+	int x, y, w, h, n;//w,h为宽高,n为每个像素的分量数量RGB=3,xy为起点坐标
 	int interpolate;
 	int xres, yres;
-	fz_colorspace *colorspace;
-	unsigned char *samples;
+	fz_colorspace *colorspace;//颜色空间
+	unsigned char *samples;//样本
 	int free_samples;
 	int has_alpha; /* SumatraPDF: allow optimizing non-alpha pixmaps 允许优化*/
 	int single_bit; /* SumatraPDF: allow optimizing 1-bit pixmaps 允许优化*/
@@ -644,10 +646,10 @@ fz_bbox fz_pixmap_bbox_no_ctx(fz_pixmap *src);
 
 struct fz_image_s
 {
-	fz_storable storable;
-	int w, h;
-	fz_image *mask;
-	fz_colorspace *colorspace;
+	fz_storable storable;//是否可存储
+	int w, h;//图片宽高
+	fz_image *mask;//图片掩码
+	fz_colorspace *colorspace;//颜色空间
 	fz_pixmap *(*get_pixmap)(fz_context *, fz_image *, int w, int h);
 };
 
@@ -1111,5 +1113,5 @@ struct fz_document_s
 	void (*free_page)(fz_document *doc, fz_page *page);
 };
 void fz_return_line(struct zblrouteset *getline);//提取直线结构体函数
-
+void fz_return_images(struct zimages* getimages);
 #endif

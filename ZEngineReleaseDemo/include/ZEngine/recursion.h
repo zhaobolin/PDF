@@ -2,6 +2,7 @@
 #include "Ipe_LinkList.h"
 #include "Ipe_PdfStack.h"
 //#include "MuInclude.h"
+int grade=0;
 int getlength(routepoint* clipheadler)
 {
 	int count=0;
@@ -98,6 +99,7 @@ void recursion(Ipe_LinkList<Ipe_PdfElement>* list,struct zblstack* cs,float* cm,
 		}
 	}
 	Ipe_PdfStack* stack=new Ipe_PdfStack(cs);
+	stack->setgrade(grade);
 	list->add(stack);
 	if(cs->existnest==0)//不存在嵌套栈
 	{
@@ -109,7 +111,9 @@ void recursion(Ipe_LinkList<Ipe_PdfElement>* list,struct zblstack* cs,float* cm,
 		while(k->nextstack!=NULL)
 		{
 			k=k->nextstack;
+			grade++;
 			recursion(list,k,cs->matrix,cs->clipheadler,cs->existclip);//嵌套调用
+			grade--;
 		}
 	}
 }
