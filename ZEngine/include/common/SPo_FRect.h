@@ -1,0 +1,10 @@
+#ifndef SPO_FRECT_H_HEADER_INCLUDED_B9A13849
+#define SPO_FRECT_H_HEADER_INCLUDED_B9A13849
+
+#include "SPo_TplRect.h"
+//##ModelId=465ED14202EE
+typedef SPo_TplRect<float> SPo_FRect;
+
+
+
+#endif /* SPO_FRECT_H_HEADER_INCLUDED_B9A13849 */

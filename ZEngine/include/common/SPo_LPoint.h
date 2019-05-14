@@ -1,0 +1,9 @@
+#ifndef SPO_LPOINT_H_HEADER_INCLUDED_B8B29A1A
+#define SPO_LPOINT_H_HEADER_INCLUDED_B8B29A1A
+
+#include "SPo_TplPoint.h"
+
+//##ModelId=474D7DAD033C
+typedef SPo_TplPoint<long> SPo_LPoint;
+
+#endif /* SPO_LPOINT_H_HEADER_INCLUDED_B8B29A1A */

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\DocumenModel">
+      <UniqueIdentifier>{73ef3f46-3510-4999-b9c9-2a845b59b65b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Render">
+      <UniqueIdentifier>{c50ee608-6dc9-4fdc-9f1e-1272cf04c61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\PDFSource">
+      <UniqueIdentifier>{e6fc3e7b-b438-4728-b900-88fd17880ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Common">
+      <UniqueIdentifier>{33374f55-051d-4200-9c12-5e45951204f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MuInclude.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_Engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_PdfDocument.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_PdfPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_PdfLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_PdfTextString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_PdfXobject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_PdfElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_PdfPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_GraphicCell.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_Lines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_Bazeir.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_Point2D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_LinkList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_Color.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="calculate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_PdfStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="recursion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ipe_Plane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clipfunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ipe_PdfDocument.cpp">
+      <Filter>源文件\DocumenModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipe_Bazeir.cpp">
+      <Filter>源文件\DocumenModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipe_Engine.cpp">
+      <Filter>源文件\DocumenModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipe_GraphicCell.cpp">
+      <Filter>源文件\DocumenModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipe_Lines.cpp">
+      <Filter>源文件\DocumenModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipe_PdfElement.cpp">
+      <Filter>源文件\DocumenModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipe_PdfLayer.cpp">
+      <Filter>源文件\DocumenModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipe_PdfPage.cpp">
+      <Filter>源文件\DocumenModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipe_PdfPath.cpp">
+      <Filter>源文件\DocumenModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipe_PdfTextString.cpp">
+      <Filter>源文件\DocumenModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipe_PdfXobject.cpp">
+      <Filter>源文件\DocumenModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipe_Point2D.cpp">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipe_PdfStack.cpp">
+      <Filter>源文件\DocumenModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipe_Plane.cpp">
+      <Filter>源文件\DocumenModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Ipe_Color.cpp">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="clipfunction.cpp">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

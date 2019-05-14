@@ -1,0 +1,150 @@
+﻿生成启动时间为 2019/5/14 17:16:03。
+     1>项目“C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngine\ZEngine\ZEngine.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\ZEngine.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\ZEngine.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include\ /I..\include\Geometry /I..\include\common /I"..\..\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\pdf" /I"..\..\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf" /I"..\..\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\fitz" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ZENGINE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt clipfunction.cpp Ipe_Bazeir.cpp Ipe_Color.cpp Ipe_Engine.cpp Ipe_GraphicCell.cpp Ipe_Lines.cpp Ipe_PdfDocument.cpp Ipe_PdfElement.cpp Ipe_PdfLayer.cpp Ipe_PdfPage.cpp Ipe_PdfPath.cpp Ipe_PdfStack.cpp Ipe_PdfTextString.cpp Ipe_PdfXobject.cpp Ipe_Plane.cpp Ipe_Point2D.cpp
+         Ipe_Point2D.cpp
+         Ipe_Plane.cpp
+         Ipe_PdfXobject.cpp
+         Ipe_PdfTextString.cpp
+         Ipe_PdfStack.cpp
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_lines.h(9): warning C4275: 非 dll 接口 class“Ipe_GraphicCell”用作 dll 接口 class“Ipe_Lines”的基
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_graphiccell.h(4) : 参见“Ipe_GraphicCell”的声明
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_lines.h(7) : 参见“Ipe_Lines”的声明
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_bazeir.h(7): warning C4275: 非 dll 接口 class“Ipe_GraphicCell”用作 dll 接口 class“Ipe_Bazeir”的基
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_graphiccell.h(4) : 参见“Ipe_GraphicCell”的声明
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_bazeir.h(5) : 参见“Ipe_Bazeir”的声明
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfpath.h(18): warning C4251: “Ipe_PdfPath::color”: class“Ipe_Color”需要有 dll 接口由 class“Ipe_PdfPath”的客户端使用
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.h(3) : 参见“Ipe_Color”的声明
+         Ipe_PdfPath.cpp
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_lines.h(9): warning C4275: 非 dll 接口 class“Ipe_GraphicCell”用作 dll 接口 class“Ipe_Lines”的基
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_graphiccell.h(4) : 参见“Ipe_GraphicCell”的声明
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_lines.h(7) : 参见“Ipe_Lines”的声明
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_bazeir.h(7): warning C4275: 非 dll 接口 class“Ipe_GraphicCell”用作 dll 接口 class“Ipe_Bazeir”的基
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_graphiccell.h(4) : 参见“Ipe_GraphicCell”的声明
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_bazeir.h(5) : 参见“Ipe_Bazeir”的声明
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfpath.h(18): warning C4251: “Ipe_PdfPath::color”: class“Ipe_Color”需要有 dll 接口由 class“Ipe_PdfPath”的客户端使用
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.h(3) : 参见“Ipe_Color”的声明
+         Ipe_PdfPage.cpp
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_lines.h(9): warning C4275: 非 dll 接口 class“Ipe_GraphicCell”用作 dll 接口 class“Ipe_Lines”的基
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_graphiccell.h(4) : 参见“Ipe_GraphicCell”的声明
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_lines.h(7) : 参见“Ipe_Lines”的声明
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_bazeir.h(7): warning C4275: 非 dll 接口 class“Ipe_GraphicCell”用作 dll 接口 class“Ipe_Bazeir”的基
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_graphiccell.h(4) : 参见“Ipe_GraphicCell”的声明
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_bazeir.h(5) : 参见“Ipe_Bazeir”的声明
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfpath.h(18): warning C4251: “Ipe_PdfPath::color”: class“Ipe_Color”需要有 dll 接口由 class“Ipe_PdfPath”的客户端使用
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.h(3) : 参见“Ipe_Color”的声明
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfpage.cpp(49): warning C4101: “cm”: 未引用的局部变量
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfpage.cpp(63): warning C4101: “beginx”: 未引用的局部变量
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfpage.cpp(63): warning C4101: “beginy”: 未引用的局部变量
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfpage.cpp(189): warning C4101: “element”: 未引用的局部变量
+         Ipe_PdfLayer.cpp
+         Ipe_PdfElement.cpp
+         Ipe_PdfDocument.cpp
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_lines.h(9): warning C4275: 非 dll 接口 class“Ipe_GraphicCell”用作 dll 接口 class“Ipe_Lines”的基
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_graphiccell.h(4) : 参见“Ipe_GraphicCell”的声明
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_lines.h(7) : 参见“Ipe_Lines”的声明
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_bazeir.h(7): warning C4275: 非 dll 接口 class“Ipe_GraphicCell”用作 dll 接口 class“Ipe_Bazeir”的基
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_graphiccell.h(4) : 参见“Ipe_GraphicCell”的声明
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_bazeir.h(5) : 参见“Ipe_Bazeir”的声明
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfpath.h(18): warning C4251: “Ipe_PdfPath::color”: class“Ipe_Color”需要有 dll 接口由 class“Ipe_PdfPath”的客户端使用
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.h(3) : 参见“Ipe_Color”的声明
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfdocument.cpp(32): warning C4101: “y”: 未引用的局部变量
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfdocument.cpp(32): warning C4101: “x”: 未引用的局部变量
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfdocument.cpp(23): warning C4101: “rotate”: 未引用的局部变量
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfdocument.cpp(24): warning C4101: “page_count”: 未引用的局部变量
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfdocument.cpp(23): warning C4101: “zoom”: 未引用的局部变量
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfdocument.cpp(32): warning C4101: “j”: 未引用的局部变量
+         Ipe_Lines.cpp
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_lines.h(9): warning C4275: 非 dll 接口 class“Ipe_GraphicCell”用作 dll 接口 class“Ipe_Lines”的基
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_graphiccell.h(4) : 参见“Ipe_GraphicCell”的声明
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_lines.h(7) : 参见“Ipe_Lines”的声明
+         Ipe_GraphicCell.cpp
+         Ipe_Engine.cpp
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_lines.h(9): warning C4275: 非 dll 接口 class“Ipe_GraphicCell”用作 dll 接口 class“Ipe_Lines”的基
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_graphiccell.h(4) : 参见“Ipe_GraphicCell”的声明
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_lines.h(7) : 参见“Ipe_Lines”的声明
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_bazeir.h(7): warning C4275: 非 dll 接口 class“Ipe_GraphicCell”用作 dll 接口 class“Ipe_Bazeir”的基
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_graphiccell.h(4) : 参见“Ipe_GraphicCell”的声明
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_bazeir.h(5) : 参见“Ipe_Bazeir”的声明
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_pdfpath.h(18): warning C4251: “Ipe_PdfPath::color”: class“Ipe_Color”需要有 dll 接口由 class“Ipe_PdfPath”的客户端使用
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.h(3) : 参见“Ipe_Color”的声明
+         Ipe_Color.cpp
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.cpp(7): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.cpp(7): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.cpp(7): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.cpp(11): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.cpp(12): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.cpp(13): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.cpp(20): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.cpp(21): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.cpp(22): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_color.cpp(48): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+         Ipe_Bazeir.cpp
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_bazeir.h(7): warning C4275: 非 dll 接口 class“Ipe_GraphicCell”用作 dll 接口 class“Ipe_Bazeir”的基
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_graphiccell.h(4) : 参见“Ipe_GraphicCell”的声明
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_bazeir.h(5) : 参见“Ipe_Bazeir”的声明
+         clipfunction.cpp
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_lines.h(9): warning C4275: 非 dll 接口 class“Ipe_GraphicCell”用作 dll 接口 class“Ipe_Lines”的基
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_graphiccell.h(4) : 参见“Ipe_GraphicCell”的声明
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_lines.h(7) : 参见“Ipe_Lines”的声明
+     1>c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_bazeir.h(7): warning C4275: 非 dll 接口 class“Ipe_GraphicCell”用作 dll 接口 class“Ipe_Bazeir”的基
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_graphiccell.h(4) : 参见“Ipe_GraphicCell”的声明
+                 c:\users\赵博霖\desktop\pdf项目\pdf\zengine\zengine\ipe_bazeir.h(5) : 参见“Ipe_Bazeir”的声明
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ZEngine.dll.embed.manifest.res" Debug\ZEngine_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngine\Debug\ZEngine.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\freeimage\ /LIBPATH:"..\..\SumatraPDF-2[1].0-source\sumatrapdf-2.0\obj-dbg" FreeImage.lib libmupdf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ZEngine.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngine\Debug\ZEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngine\Debug\ZEngine.lib" /MACHINE:X86 /DLL Debug\ZEngine.dll.embed.manifest.res
+         Debug\clipfunction.obj
+         Debug\Ipe_Bazeir.obj
+         Debug\Ipe_Color.obj
+         Debug\Ipe_Engine.obj
+         Debug\Ipe_GraphicCell.obj
+         Debug\Ipe_Lines.obj
+         Debug\Ipe_PdfDocument.obj
+         Debug\Ipe_PdfElement.obj
+         Debug\Ipe_PdfLayer.obj
+         Debug\Ipe_PdfPage.obj
+         Debug\Ipe_PdfPath.obj
+         Debug\Ipe_PdfStack.obj
+         Debug\Ipe_PdfTextString.obj
+         Debug\Ipe_PdfXobject.obj
+         Debug\Ipe_Plane.obj
+         Debug\Ipe_Point2D.obj
+            正在创建库 C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngine\Debug\ZEngine.lib 和对象 C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngine\Debug\ZEngine.exp
+       Manifest:
+         正在删除文件“Debug\ZEngine.dll.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ZEngine.dll.embed.manifest" /manifest Debug\ZEngine.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ZEngine.dll.embed.manifest.res" Debug\ZEngine_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngine\Debug\ZEngine.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\freeimage\ /LIBPATH:"..\..\SumatraPDF-2[1].0-source\sumatrapdf-2.0\obj-dbg" FreeImage.lib libmupdf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ZEngine.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngine\Debug\ZEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngine\Debug\ZEngine.lib" /MACHINE:X86 /DLL Debug\ZEngine.dll.embed.manifest.res
+         Debug\clipfunction.obj
+         Debug\Ipe_Bazeir.obj
+         Debug\Ipe_Color.obj
+         Debug\Ipe_Engine.obj
+         Debug\Ipe_GraphicCell.obj
+         Debug\Ipe_Lines.obj
+         Debug\Ipe_PdfDocument.obj
+         Debug\Ipe_PdfElement.obj
+         Debug\Ipe_PdfLayer.obj
+         Debug\Ipe_PdfPage.obj
+         Debug\Ipe_PdfPath.obj
+         Debug\Ipe_PdfStack.obj
+         Debug\Ipe_PdfTextString.obj
+         Debug\Ipe_PdfXobject.obj
+         Debug\Ipe_Plane.obj
+         Debug\Ipe_Point2D.obj
+            正在创建库 C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngine\Debug\ZEngine.lib 和对象 C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngine\Debug\ZEngine.exp
+         ZEngine.vcxproj -> C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngine\Debug\ZEngine.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ZEngine.unsuccessfulbuild”。
+         正在对“Debug\ZEngine.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngine\ZEngine\ZEngine.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:16.33

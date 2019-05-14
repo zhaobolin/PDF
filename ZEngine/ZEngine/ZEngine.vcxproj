@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calculate.h" />
+    <ClInclude Include="clipfunction.h" />
+    <ClInclude Include="Ipe_Bazeir.h" />
+    <ClInclude Include="Ipe_Color.h" />
+    <ClInclude Include="Ipe_Engine.h" />
+    <ClInclude Include="Ipe_GraphicCell.h" />
+    <ClInclude Include="Ipe_Lines.h" />
+    <ClInclude Include="Ipe_PdfDocument.h" />
+    <ClInclude Include="Ipe_PdfElement.h" />
+    <ClInclude Include="Ipe_PdfLayer.h" />
+    <ClInclude Include="Ipe_PdfPage.h" />
+    <ClInclude Include="Ipe_PdfPath.h" />
+    <ClInclude Include="Ipe_PdfStack.h" />
+    <ClInclude Include="Ipe_PdfTextString.h" />
+    <ClInclude Include="Ipe_PdfXobject.h" />
+    <ClInclude Include="Ipe_Plane.h" />
+    <ClInclude Include="Ipe_Point2D.h" />
+    <ClInclude Include="Ipe_LinkList.h" />
+    <ClInclude Include="MuInclude.h" />
+    <ClInclude Include="recursion.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="clipfunction.cpp" />
+    <ClCompile Include="Ipe_Bazeir.cpp" />
+    <ClCompile Include="Ipe_Color.cpp" />
+    <ClCompile Include="Ipe_Engine.cpp" />
+    <ClCompile Include="Ipe_GraphicCell.cpp" />
+    <ClCompile Include="Ipe_Lines.cpp" />
+    <ClCompile Include="Ipe_PdfDocument.cpp" />
+    <ClCompile Include="Ipe_PdfElement.cpp" />
+    <ClCompile Include="Ipe_PdfLayer.cpp" />
+    <ClCompile Include="Ipe_PdfPage.cpp" />
+    <ClCompile Include="Ipe_PdfPath.cpp" />
+    <ClCompile Include="Ipe_PdfStack.cpp" />
+    <ClCompile Include="Ipe_PdfTextString.cpp" />
+    <ClCompile Include="Ipe_PdfXobject.cpp" />
+    <ClCompile Include="Ipe_Plane.cpp" />
+    <ClCompile Include="Ipe_Point2D.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{357B21E3-4737-4FEE-B1C9-1CDAFD4869FC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ZEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;ZENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include\;..\include\Geometry;..\include\common;..\..\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\pdf;..\..\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf;..\..\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\fitz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\freeimage\;..\..\SumatraPDF-2[1].0-source\sumatrapdf-2.0\obj-dbg;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FreeImage.lib;libmupdf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;ZENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngineProject\ZEngine\include\Geometry;C:\Users\赵博霖\Desktop\PDF项目\PDF\ZEngineProject\ZEngine\include\common;C:\Users\赵博霖\Desktop\PDF项目\PDF\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\pdf;C:\Users\赵博霖\Desktop\PDF项目\PDF\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf;C:\Users\赵博霖\Desktop\PDF项目\PDF\SumatraPDF-2[1].0-source\sumatrapdf-2.0\mupdf\fitz;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>C:\Users\赵博霖\Desktop\PDF项目\PDF\SumatraPDF-2[1].0-source\sumatrapdf-2.0\obj-dbg;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libmupdf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

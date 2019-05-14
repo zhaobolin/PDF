@@ -1,0 +1,10 @@
+#ifndef SPO_DPOINT2D_H_HEADER_INCLUDED_B883EE76
+#define SPO_DPOINT2D_H_HEADER_INCLUDED_B883EE76
+
+#include "SPo_TplPoint2D.h"
+//##ModelId=477C4C460148
+typedef SPo_TplPoint2D<double> SPo_DPoint2D;
+
+
+
+#endif /* SPO_DPOINT2D_H_HEADER_INCLUDED_B883EE76 */
